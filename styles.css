@@ -1,0 +1,57 @@
+body {
+    background-color: lightgrey;
+    margin-inline: auto;
+    /*width: min(90%, 1500px);*/
+    margin-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    height: 10vh;
+    margin-top: 0px;
+    /*background: linear-gradient(300deg, yellow, red);*/
+    background: linear-gradient(50deg,#877F7D,#544C4A); /*darkgray #828282 and fossil #787276*/ /*Stone #877F7D Ash Gray #544C4A*/
+}
+
+h2 {
+    text-align: center;
+    /*border-style: solid;*/
+    border-width: 3px;
+    border-color: black;
+    margin: 10px, 50px, 10px;
+}
+
+h3 {
+    text-align: center;
+    
+    /*border-style: solid;*/
+    border-width: 3px;
+    border-color: black;
+    margin: 10px 50px 10px;
+}
+
+.topnav {
+    margin-top: 50px;
+}
+
+.topnav a{
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+    
+    color: black;
+  }
+
+  .topnav a.active {
+    
+    color: white;
+  }
